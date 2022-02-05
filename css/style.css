@@ -1,0 +1,65 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Outfit:wght@100&family=Roboto:wght@300&family=Secular+One&family=Truculenta:wght@200&display=swap');
+
+   .container {
+    height: 500px;
+    width: 700px;
+    font-family: 'roboto', sans-serif;
+    font-size: larger;
+    text-shadow: rgb(4, 5, 7) 0px 20px 30px -4px;
+    flex-direction: column;
+    box-shadow: rgb(106, 123, 141) 0px 20px 30px -10px;
+    border-radius: 10%;
+    background: radial-gradient(circle, rgb(240, 195, 214) 0%, rgba(148,187,233,1) 100%);
+    padding: 10px;
+    margin-bottom: 44px;
+  }
+  
+  h2 {
+    font-size: 2em;
+    padding : 8px;
+  }
+
+  label {
+    color: rgb(75, 75, 236);
+    font-size:x-large;
+  }
+
+  div {
+    height: 200px;
+    width: 130px;
+    display: flex;
+    flex-flow: column wrap; 
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(4, 5, 7) 0px 20px 30px -10px;
+  }
+
+  div:nth-child(2) {
+    height: 240px;
+    width: 380px;
+    font-size: 6em;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  div:nth-of-type(2n) {
+    margin-left: 25px;
+  }
+ 
+  select {
+    height: 60px;
+    width: 125px;
+    background-image: linear-gradient(45deg, transparent 80%, rgb(75, 75, 236) 50%);
+    margin-bottom: 20px;
+    box-shadow: rgb(4, 5, 7) 0px 20px 30px -4px;
+    border-style: 0.2%;
+  }
+      
+  option {
+    font-size:larger;
+  }
+ 
+  .image {
+     height: 50px;
+     width: 50px;
+  }
