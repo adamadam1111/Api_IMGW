@@ -16,7 +16,7 @@ const getWheater = async () => {
 
     } catch (err) {
 
-        console.error(`To jest nasza obsługa błędu ${err}`);
+        console.error(`Błąd - spróbuj ponownie ${err}`);
     }
 }
 
