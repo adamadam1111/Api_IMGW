@@ -36,8 +36,6 @@ getWheater().then(data => {
 document.querySelector('select').addEventListener('input', (e) => {
     const stationId = e.target.value;
 
-    if (stationId === 5) {}
-
     const station = stations.find(x => x.id_stacji === stationId);
 
     if (!station) {return;}
